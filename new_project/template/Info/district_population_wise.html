@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for i in di_name %}
+<h3>{{ i.dis_name }}</h3>
+{% endfor %}
+<a class="btn btn-info" href="{% url 'all-dis' %}">Show All</a>
+</body>
+</html>

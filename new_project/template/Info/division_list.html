@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for i in li %}
+<a href="{% url 'distric-population' i.div_name %}">{{ i.div_name }}<br></a>
+{% endfor %}
+</body>
+</html>
